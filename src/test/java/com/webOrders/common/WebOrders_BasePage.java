@@ -10,7 +10,7 @@ import com.webOrders.home.WebOrders_SignInPage;
 public class WebOrders_BasePage {
 
 
-	protected WebDriver driver;
+	protected static WebDriver driver;
 	
 	//WebElement txtusername = driver.findElement(By.name(""));
 	
@@ -28,7 +28,7 @@ public class WebOrders_BasePage {
 	
 	
 
-	public WebDriver getDriver() {
+	public static WebDriver getDriver() {
 		return driver;
 	}
 
