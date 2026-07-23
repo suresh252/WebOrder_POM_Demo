@@ -14,11 +14,11 @@ public class WebOrders_Login extends WebOrders_BaseSetup {
 	WebOrders_SignInPage signIn;
 	WebOrders_HomePage homePage;
 	WebOrders_BasePage basePage;
-	private WebDriver driver;
+	protected WebDriver driver;
 
 	@BeforeClass
 	public void setUp() {
-		driver = getDriver();
+		WebDriver driver = getDriver();
 		basePage = new WebOrders_BasePage(driver);
 	}
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="35.114" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="35.209" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -26,7 +26,7 @@
     <property name="user.variant" value=""/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\Users\SuguruSuresh\OneDrive - IBM\Documents\Automation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf13822091737257457826.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\SuguruSuresh\OneDrive - IBM\Documents\Automation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7745256771883491275.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.18.8-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-25\bin;C:\Program Files\Java\jdk-25\bin;C:\Program Files\apache-maven-3.9.12\bin;C:\Program Files\Git\cmd;C:\Users\SuguruSuresh\AppData\Local\Microsoft\WindowsApps;C:\Users\SuguruSuresh\AppData\Local\Programs\IBM Bob\bin;."/>
@@ -60,10 +60,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Temurin-17.0.18+8"/>
-    <property name="m2e.build.project.data.socket.port" value="57647"/>
+    <property name="m2e.build.project.data.socket.port" value="64883"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTest" classname="com.webOrders.test.WebOrders_Login" time="12.007"/>
-  <testcase name="urlTest" classname="com.webOrders.test.WebOrders_Login" time="10.546"/>
-  <testcase name="verifyText" classname="com.webOrders.test.WebOrders_Login" time="12.561"/>
+  <testcase name="loginTest" classname="com.webOrders.test.WebOrders_Login" time="13.5"/>
+  <testcase name="urlTest" classname="com.webOrders.test.WebOrders_Login" time="10.698"/>
+  <testcase name="verifyText" classname="com.webOrders.test.WebOrders_Login" time="11.011"/>
 </testsuite>
