@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-22T07:35:49Z" name="Suite" finished-at="2026-07-22T07:36:10Z" duration-ms="21398">
+    <groups>
+    </groups>
+    <test started-at="2026-07-22T07:35:49Z" name="test-1" finished-at="2026-07-22T07:36:10Z" duration-ms="21398">
+      <class name="com.webOrders.test.WebOrder_Product_Price_Discount_Verification">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085]" started-at="2026-07-22T13:05:49Z" name="SetUp" finished-at="2026-07-22T13:05:49Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085]" started-at="2026-07-22T13:05:49Z" name="initializeTestBaseSetup" finished-at="2026-07-22T13:05:55Z" duration-ms="6203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?ReturnUrl=%2fsamples%2fTestComplete11%2fWebOrders%2fDefault.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085]" started-at="2026-07-22T13:05:55Z" name="setUp" finished-at="2026-07-22T13:05:58Z" duration-ms="3312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductPrice(java.lang.String, java.lang.String)[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085]" started-at="2026-07-22T13:05:58Z" name="verifyProductPrice" description="Verify Product price in Order Page" data-provider="ProductPrice" finished-at="2026-07-22T13:06:01Z" duration-ms="2593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MyMoney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPrice -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085]" started-at="2026-07-22T13:06:01Z" name="takeScreenshot" finished-at="2026-07-22T13:06:01Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductPrice status=SUCCESS method=WebOrder_Product_Price_Discount_Verification.verifyProductPrice(java.lang.String, java.lang.String)[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="verifyProductPrice(java.lang.String, java.lang.String)[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085]" started-at="2026-07-22T13:06:01Z" name="verifyProductPrice" description="Verify Product price in Order Page" data-provider="ProductPrice" finished-at="2026-07-22T13:06:03Z" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FamilyAlbum]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPrice -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085]" started-at="2026-07-22T13:06:03Z" name="takeScreenshot" finished-at="2026-07-22T13:06:03Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductPrice status=SUCCESS method=WebOrder_Product_Price_Discount_Verification.verifyProductPrice(java.lang.String, java.lang.String)[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="verifyProductPrice(java.lang.String, java.lang.String)[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085]" started-at="2026-07-22T13:06:03Z" name="verifyProductPrice" description="Verify Product price in Order Page" data-provider="ProductPrice" finished-at="2026-07-22T13:06:05Z" duration-ms="2037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ScreenSaver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPrice -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085]" started-at="2026-07-22T13:06:05Z" name="takeScreenshot" finished-at="2026-07-22T13:06:05Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductPrice status=SUCCESS method=WebOrder_Product_Price_Discount_Verification.verifyProductPrice(java.lang.String, java.lang.String)[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webOrders.test.WebOrder_Product_Price_Discount_Verification@77825085]" started-at="2026-07-22T13:06:05Z" name="tearDown" finished-at="2026-07-22T13:06:10Z" duration-ms="4840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webOrders.test.WebOrder_Product_Price_Discount_Verification -->
+    </test> <!-- test-1 -->
+  </suite> <!-- Suite -->
+</testng-results>
