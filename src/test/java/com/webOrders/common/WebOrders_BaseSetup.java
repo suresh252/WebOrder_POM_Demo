@@ -108,22 +108,52 @@ public class WebOrders_BaseSetup {
 		return driver;
 	}
 
-	@Parameters({ "browserType", "appURL" })
+//	@Parameters({ "browserType", "appURL" })
+//	@BeforeClass
+//	public void initializeTestBaseSetup(String browserType, String appURL) {
+//		try {
+//			setDriver(browserType, appURL);
+//
+//		} catch (Exception e) {
+//			System.out.println("Error....." + e.getStackTrace());
+//		}
+//	}
+	
 	@BeforeClass
+	@Parameters({"browserType","appURL"})
 	public void initializeTestBaseSetup(String browserType, String appURL) {
-		try {
-			setDriver(browserType, appURL);
 
-		} catch (Exception e) {
-			System.out.println("Error....." + e.getStackTrace());
-		}
+	    try {
+	        setDriver(browserType, appURL);
+
+	    } catch (Exception e) {
+
+	        System.out.println("Browser launch failed");
+
+	        e.printStackTrace();   // VERY IMPORTANT
+
+	        throw new RuntimeException(e);
+
+	    }
 	}
 
+//	@AfterClass
+//	public void tearDown() throws InterruptedException {
+//		driver.quit();
+//		Thread.sleep(1000);
+//		extent.flush();
+//	}
+	
 	@AfterClass
 	public void tearDown() throws InterruptedException {
-		driver.quit();
-		Thread.sleep(1000);
-		extent.flush();
+
+	    if(driver!=null)
+	    {
+	        driver.quit();
+	    }
+
+	    extent.flush();
+
 	}
 
 	private File captureScreenshot(ITestResult result) throws IOException {
