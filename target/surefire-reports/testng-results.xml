@@ -2,12 +2,12 @@
 <testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-22T09:18:37Z" name="Page Object test example" finished-at="2026-07-22T09:19:37Z" duration-ms="60187">
+  <suite started-at="2026-07-23T07:32:40Z" name="Page Object test example" finished-at="2026-07-23T07:33:21Z" duration-ms="40680">
     <groups>
     </groups>
-    <test started-at="2026-07-22T09:18:37Z" name="test-1" finished-at="2026-07-22T09:19:37Z" duration-ms="60187">
+    <test started-at="2026-07-23T07:32:40Z" name="test-1" finished-at="2026-07-23T07:33:21Z" duration-ms="40680">
       <class name="com.webOrders.test.WebOrders_Login">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-22T14:48:37Z" name="SetUp" finished-at="2026-07-22T14:48:38Z" duration-ms="365" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-23T13:02:40Z" name="SetUp" finished-at="2026-07-23T13:02:40Z" duration-ms="190" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-22T14:48:38Z" name="initializeTestBaseSetup" finished-at="2026-07-22T14:48:48Z" duration-ms="10007" status="PASS">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-23T13:02:40Z" name="initializeTestBaseSetup" finished-at="2026-07-23T13:02:48Z" duration-ms="7420" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,15 +34,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-22T14:48:48Z" name="setUp" finished-at="2026-07-22T14:48:48Z" duration-ms="41" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-23T13:02:48Z" name="setUp" finished-at="2026-07-23T13:02:48Z" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-22T14:48:48Z" name="loginTest" description="Login and validate the WebOrder Homepage Text" finished-at="2026-07-22T14:48:59Z" duration-ms="11789" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-23T13:02:48Z" name="loginTest" description="Login and validate the WebOrder Homepage Text" finished-at="2026-07-23T13:03:00Z" duration-ms="11594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-22T14:48:59Z" name="takeScreenshot" finished-at="2026-07-22T14:48:59Z" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-23T13:03:00Z" name="takeScreenshot" finished-at="2026-07-23T13:03:00Z" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="urlTest()[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-22T14:48:59Z" name="urlTest" description="validateURL() method call for URL verification" finished-at="2026-07-22T14:49:16Z" duration-ms="16223" status="PASS">
+        <test-method signature="urlTest()[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-23T13:03:00Z" name="urlTest" description="validateURL() method call for URL verification" finished-at="2026-07-23T13:03:10Z" duration-ms="10496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-22T14:49:16Z" name="takeScreenshot" finished-at="2026-07-22T14:49:16Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-23T13:03:10Z" name="takeScreenshot" finished-at="2026-07-23T13:03:10Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,11 +68,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="verifyText()[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-22T14:49:16Z" name="verifyText" description="validateTitle() method call for Title verification" finished-at="2026-07-22T14:49:34Z" duration-ms="18562" status="PASS">
+        <test-method signature="verifyText()[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-23T13:03:10Z" name="verifyText" description="validateTitle() method call for Title verification" finished-at="2026-07-23T13:03:19Z" duration-ms="8475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyText -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-22T14:49:34Z" name="takeScreenshot" finished-at="2026-07-22T14:49:34Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-23T13:03:19Z" name="takeScreenshot" finished-at="2026-07-23T13:03:19Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-22T14:49:34Z" name="tearDown" finished-at="2026-07-22T14:49:37Z" duration-ms="3164" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webOrders.test.WebOrders_Login@593aaf41]" started-at="2026-07-23T13:03:19Z" name="tearDown" finished-at="2026-07-23T13:03:21Z" duration-ms="2452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

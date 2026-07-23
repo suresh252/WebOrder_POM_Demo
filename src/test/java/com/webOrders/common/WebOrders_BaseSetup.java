@@ -31,7 +31,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class WebOrders_BaseSetup {
 
 
-	private WebDriver driver;
+	private static WebDriver driver;
 	static ExtentSparkReporter htmlReporter;
 	protected static ExtentReports extent;
 	protected static ExtentTest test;
@@ -101,7 +101,7 @@ public class WebOrders_BaseSetup {
 	private static WebDriver initEdgeDriver(String appURL) throws InterruptedException {
 		System.out.println("Launching edge browser..");
 
-		WebDriver driver = new EdgeDriver();
+		driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to(appURL);
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(5000));
